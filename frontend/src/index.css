@@ -1,0 +1,12 @@
+.selected-row {
+  background-color: #d4d4d4 !important;
+}
+.row-active {
+  background-color: #e0fffa !important; /* light cyan */
+}
+.row-inactive {
+  background-color: #fff0df !important; /* light orange */
+}
+.row-completed {
+  background-color: #ecffd8 !important; /* light green */
+}
