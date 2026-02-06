@@ -16,8 +16,7 @@ export default function App() {
   const [pageSize, setPageSize] = useState(10);
   const [total, setTotal] = useState(0);
 
-  const API_URL = "http://localhost:5000/api/geodata";
-
+  const API_URL = "https://geo-data-dashboard.onrender.com/api/geodata";
   useEffect(() => {
     const fetchData = async () => {
       try {
